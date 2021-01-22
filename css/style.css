@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100;200;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 
 main {
   border: 10px solid #fff;
+  font-family: Fraunces, sans;
 }
 
 .image-cont {
@@ -27,7 +30,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 10em;
+  font-size: 10vw;
   text-shadow: 1px 1px 2px #000;
   z-index: 2;
 }
@@ -39,6 +42,6 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
